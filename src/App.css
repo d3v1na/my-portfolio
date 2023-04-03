@@ -93,4 +93,37 @@ h3{
   font-family: 'Desire Pro';
   font-size: 64px;
   text-align: center;
+  margin-bottom: 10%;
+}
+
+img{
+  width: 50%;
+  height: 50%;
+  margin-left: 40%;
+  rotate: -5deg;
+  margin-bottom: 20%;
+}
+
+h4{
+  color: rgb(180, 185, 241);
+  font-family: 'Ragata';
+  font-size: 64px;
+  text-align: center;
+  margin-top: -5%;
+}
+
+.example div{
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 20%;
+}
+
+h6{
+  color: rgb(241, 180, 218);
+  font-family: 'Desire Pro';
+  font-size: 48px;
+  text-align: center;
+  padding-right: 20%;
+  padding-left: 20%;
 }
