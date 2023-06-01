@@ -34,12 +34,16 @@
   src: url('New_delhi_bold.ttf');
 }
 
+
+
 h1{
   color: rgb(254, 255, 175);
   font-family: 'Ragata';
   font-size: 128px;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 0%;
+  line-height: 140%;
+
 }
 
 
@@ -114,19 +118,7 @@ h3{
 }
 
 
-.me img{
-  width: 50%;
-  height: 50%;
-  margin-left: 20%;
-  rotate: -5deg;
-  margin-bottom: 10%;
-}
 
-.me{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;}
 
 h4{
   color: rgb(180, 185, 241);
@@ -145,37 +137,7 @@ h4{
   padding-left: 20%;
 }
 
-.heading{
-  display: inline-block;
-  overflow: hidden ;
-  white-space: nowrap;
-  color: rgb(180, 185, 241);
-  font-family: 'Ragata';
-  font-size: 64px;
-  text-align: center;
-  margin-top: -6%;
-  margin-left: 0%;
-  align-items: center;
-}
 
-.heading div{
-  overflow: hidden;
-  margin-top: 0%;
-  margin-left: 0%;
-}
-.heading div ul{
-  overflow: hidden;
-  margin-top: 0%;
-  margin-left: 0%;
-}
-
-.heading div ul li{
-  display: inline-block;
-  margin-right: 32px;
-  overflow:hidden;
-  margin-top: 0%;
-  margin-left: 0%;
-}
 
 .heading2{
   display: inline-block;

@@ -1,0 +1,47 @@
+.me img{
+    width: 50%;
+    height: 50%;
+    margin-left: 20%;
+    rotate: -5deg;
+    margin-bottom: 10%;
+  }
+  
+  .me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;}
+
+.heading{
+    display: inline-block;
+    overflow: hidden ;
+    white-space: nowrap;
+    color: rgb(180, 185, 241);
+    font-family: 'Ragata';
+    font-size: 64px;
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 0%;
+    align-items: center;
+    margin-bottom: -10%;
+    }
+    
+    .heading div{
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 0%;
+    }
+    .heading div ul{
+    overflow: hidden;
+    margin-top: 0%;
+    margin-left: 0%;
+    }
+    
+    .heading div ul li{
+    display: inline-block;
+    margin-right: 32px;
+    overflow:hidden;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    }
