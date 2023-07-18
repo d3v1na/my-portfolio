@@ -1,42 +1,70 @@
-import React from 'react'
+import React, { Children } from 'react'
 import PropTypes from 'prop-types'
 import '../Styles/Me.css'
 
 import{
     useScroll,
     useTransform,
-    motion
+    motion,
+    useSpring,
+    useMotionValue,
+    useVelocity,
+    useAnimationFrame,
+    wrap
   } from "framer-motion";
   
   import{
     useEffect,
-    useState
+    useState,
+    useRef
   } from "react";
 
-
-
 function Me(props) {
-    const { scrollYProgress } = useScroll();
-    const x = useTransform(scrollYProgress, [0, 1], [0, -600]);
-    const x1 = useTransform(scrollYProgress, [0, 1], [0, 600]);
+    const baseX = useMotionValue(0);
+    const { scrollY } = useScroll();
+    const scrollVelocity = useVelocity(scrollY);
+    const smoothVelocity = useSpring(scrollVelocity, { damping: 50, stiffness: 300 });
+
+    const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], { clamp: false });
+
+    const x = useTransform(baseX, (v) => `${wrap(0, -25, v)}%`);
+    const directionFactor = useRef(1);
+
+    useAnimationFrame((t, delta) => {
+        let moveBy = directionFactor.current * -5 * (delta / 1000);
+        if (velocityFactor.get() <0) {
+            directionFactor.current = -1;
+        } else if (velocityFactor.get() > 0) {
+            directionFactor.current = 1;
+        }
+        if (velocityFactor.get() !== 0) {
+            moveBy += directionFactor.current * moveBy * velocityFactor.get();
+            baseX.set(baseX.get() + moveBy);
+        }
+    });
+
     return (
         <>
         
+
         <section className="heading">
-            <motion.div style={{ x: x }}>
-                <ul>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                    <li>me</li>
-                </ul>
+            <motion.div className= "scroller" style={{x}}>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
+                <motion.span>me </motion.span>
             </motion.div>
         </section>
             <div className='me'>

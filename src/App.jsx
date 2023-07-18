@@ -1,6 +1,7 @@
 import './App.css';
 import Me from './Components/Me.jsx';
 import About from './Components/About.jsx';
+import Projects from './Components/Projects.jsx';
 import{
   useScroll,
   useTransform,
@@ -85,6 +86,7 @@ function App() {
     
     <Me/> 
     <About/>
+    <Projects/>
 
     </body>
     </div>

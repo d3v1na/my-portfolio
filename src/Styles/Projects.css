@@ -1,0 +1,32 @@
+.proj {
+    display: inline-block;
+    overflow: hidden ;
+    white-space: nowrap;
+    color: rgb(180, 185, 241);
+    font-family: 'Ragata';
+    font-size: 144px;
+    text-align: center;
+    margin-left: 0%;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+.projects img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10%;
+    margin-left: -10%;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;}
+
+.sideText{
+    color: rgb(241, 180, 218);
+    font-family: 'Ragata';
+    font-size: 48px;
+    margin-right: 20%;
+}
