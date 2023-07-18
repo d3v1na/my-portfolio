@@ -1,7 +1,8 @@
 .me img{
-    width: 50%;
-    height: 50%;
-    margin-left: 20%;
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+    margin-left: 10%;
     rotate: -5deg;
     margin-bottom: 10%;
   }
@@ -10,7 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;}
+    flex-direction: row;
+  }
+
+  .me h3{
+    font-family: 'Desire Pro';
+  }
 
 .heading{
     display: inline-block;

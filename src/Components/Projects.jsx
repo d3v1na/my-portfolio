@@ -65,9 +65,9 @@ function Projects() {
         </section>
         <div className='projects'>
                 <img src={require('../Assets/pointx.png')} />
-                <div>
-                    <h3 className='sideText'>PointX</h3>
-
+                <div className='sideText' >
+                    <h3>PointX</h3>
+                    <h6>PointX is a single app for collecting and redeeming loyalty points, that can be exchanged between stores, helping brands with customer loyalty.</h6>
                 </div>
             </div>
             </>
