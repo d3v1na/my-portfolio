@@ -43,7 +43,7 @@ function Projects() {
         }
     });
   return (
-    <>
+    <div id = 'Projects'>
         <section className='proj'>
             <motion.div className= "scroller" style={{x}}>
                 <motion.span>projects </motion.span>
@@ -65,13 +65,13 @@ function Projects() {
             </motion.div>
         </section>
         <div>
-                <Project name = 'PointX' description = 'PointX is a single app for collecting and redeeming loyalty points, that can be exchanged between stores, helping brands with customer loyalty.'/>
-                {/*project*/}
+                <Project name = 'PointX' description = 'PointX is a single app for collecting and redeeming loyalty points, that can be exchanged between stores, helping brands with customer loyalty.' image = {require('../Assets/pointx.png')} link = 'https://devpost.com/software/pointx'/>
+                <Project name = 'Swapsta' description = 'Swapsta is a product swapping application that allows you to swap your products that may not be useful for you with someone who finds it useful for something you might actually require.' image = {require('../Assets/swapsta.png')} link = 'https://devpost.com/software/swapsta'/>
                 {/*project*/}
                 {/*project*/}
                 {/*project*/}
         </div>
-    </>
+    </div>
     
   )
 }

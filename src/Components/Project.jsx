@@ -1,17 +1,26 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import '../Styles/Project.css'
-import { Button } from "./Button.jsx";
+
 
 
 function Project(props) {
   return (
     <div className='projez'>
+      <div className='left'>
+        <img src={props.image} alt='project'/>
+      </div>
+      <div className='rite'>
         <p>{props.name}</p>
         <h6>{props.description}</h6>
-        <Button variant="outlined" pill>
-          Outlined Pill
-        </Button>
+        <a href={props.link}>
+          <button >
+            view
+          </button>
+        </a>
+          
+      </div>
+          
     </div>
   )
 }

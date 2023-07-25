@@ -44,33 +44,32 @@ function Me(props) {
     });
 
     return (
-        <>
-        
-
-        <section className="heading">
-            <motion.div className= "scroller" style={{x}}>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-                <motion.span>me </motion.span>
-            </motion.div>
-        </section>
-        <div className='me'>
-            <h3>me</h3>
-            <img src={require('../Assets/me.png')} />
-        </div></>
+        <div id='Me'>
+            <section className="heading">
+                <motion.div className= "scroller" style={{x}}>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                    <motion.span>me </motion.span>
+                </motion.div>
+            </section>
+            <div className='me'>
+                <h3>me</h3>
+                <img src={require('../Assets/me.png')} />
+            </div>
+        </div>
   )
 }
 

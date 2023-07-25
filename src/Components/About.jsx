@@ -42,34 +42,35 @@ function About() {
         }
     });
   return (
-    <>
-    <section className="heading">
-            <motion.div className= "scroller" style={{x}}>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-                <motion.span>about </motion.span>
-            </motion.div>
-        </section>
-    <div>
-        <h6 className='desc'>i’m a graphics and ui/ux Designer, currently working as design lead for niteouts.
-‍
-        i'm pursuing a b.tech in computer science from shiv nadar university.
+    <div id = 'About'>
+      <section className="heading">
+              <motion.div className= "scroller" style={{x}}>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+                  <motion.span>about </motion.span>
+              </motion.div>
+          </section>
+      <div>
+          <h6 className='desc'>i’m a graphics and ui/ux Designer, currently working as design lead for niteouts.
+  ‍
+          i'm pursuing a b.tech in computer science from shiv nadar university.
 
-        please scroll down to view some of the work i've done. :D</h6>
-    </div></>
+          please scroll down to view some of the work i've done. :D</h6>
+      </div>
+    </div>
   )
 }
 

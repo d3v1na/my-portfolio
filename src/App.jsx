@@ -73,16 +73,16 @@ function App() {
     <title>Devina Bhatnagar</title>
     <nav>
         <ul>
-            <li><a href="#">ME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#Me">ME</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Projects">PROJECTS</a></li>
             <li><a href="#">CONTACT ME</a></li>
         </ul>
     </nav>
     
     <h1 onMouseEnter={textEnter} onMouseLeave={textLeave}>Devina Bhatnagar</h1>
     <h2 onMouseEnter={textEnter} onMouseLeave={textLeave}>nsfouk HVukxkj</h2>
-    <h3>i'm a designer i also made this website</h3>
+    <h3>frontend developer and ui/ux designer</h3>
     
     <Me/> 
     <About/>
