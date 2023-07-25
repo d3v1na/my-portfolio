@@ -11,29 +11,3 @@
     margin-bottom: 0%;
 }
 
-.projects img {
-    width: 30%;
-    height: 30%;
-    margin-bottom: 10%;
-}
-
-.projects{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;}
-
-.projects h3{
-    color: rgb(241, 180, 218);
-    font-family: 'Ragata';
-    font-size: 48px;
-    margin-right: 20%;
-}
-
-.projects h6{
-    color: rgb(179, 179, 179);
-    font-family: 'Desire Pro';
-    font-size: 24px;
-    margin-right: 20%;
-}
-

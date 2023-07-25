@@ -1,0 +1,24 @@
+
+.projez p{
+    color: rgb(241, 180, 218);
+    font-family: 'Ragata';
+    font-size: 48px;
+}
+
+.projez h6{
+    margin-top: -10%;
+    color: rgb(179, 179, 179);
+    font-family: 'Desire Pro';
+    font-size: 24px;
+    width: 500px;
+}
+
+.projez {
+    display: inline-block;
+
+    text-align: left;
+    margin-left: 0%;
+    align-items: flex-start;
+    margin-bottom: 0%;
+}
+

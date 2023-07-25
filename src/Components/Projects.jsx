@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Styles/Projects.css'
+import Project from './Project';
 
 import{
     useScroll,
@@ -63,14 +64,14 @@ function Projects() {
                 <motion.span>projects </motion.span>
             </motion.div>
         </section>
-        <div className='projects'>
-                <img src={require('../Assets/pointx.png')} />
-                <div className='sideText' >
-                    <h3>PointX</h3>
-                    <h6>PointX is a single app for collecting and redeeming loyalty points, that can be exchanged between stores, helping brands with customer loyalty.</h6>
-                </div>
-            </div>
-            </>
+        <div>
+                <Project name = 'PointX' description = 'PointX is a single app for collecting and redeeming loyalty points, that can be exchanged between stores, helping brands with customer loyalty.'/>
+                {/*project*/}
+                {/*project*/}
+                {/*project*/}
+                {/*project*/}
+        </div>
+    </>
     
   )
 }
