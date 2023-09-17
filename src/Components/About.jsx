@@ -64,11 +64,11 @@ function About() {
               </motion.div>
           </section>
       <div>
-          <h6 className='desc'>i’m a graphics and ui/ux Designer, currently working as design lead for niteouts.
+          <h6 className='desc'>i'm a web developer and ux designer based in india,
   ‍
-          i'm pursuing a b.tech in computer science from shiv nadar university.
+          currently pursuing a b.tech in computer science from shiv nadar university.
 
-          please scroll down to view some of the work i've done. :D</h6>
+          please scroll down to view some of the work i've done :D</h6>
       </div>
     </div>
   )
